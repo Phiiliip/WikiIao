@@ -3,4 +3,5 @@
     <string name="Descripcion">Descripcion</string>
     <string name="ImagenClase">ImagenClase</string>
     <string name="imagenStaff">ImagenStaff</string>
+    <string name="nombreStaff">NombreStaff</string>
 </resources>
