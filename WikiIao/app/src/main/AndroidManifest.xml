@@ -16,8 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".clases" />
-        <activity android:name=".staff"></activity>
+        <activity android:name=".clases.clases" />
+        <activity android:name=".staff" />
+        <activity android:name=".bardo"></activity>
     </application>
 
 </manifest>

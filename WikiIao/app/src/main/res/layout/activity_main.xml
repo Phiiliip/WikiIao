@@ -10,7 +10,7 @@
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="343dp"
-        android:layout_height="0dp"
+        android:layout_height="89dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="15dp"
         android:contentDescription="@string/Descripcion"
@@ -24,7 +24,7 @@
     <ImageButton
         android:id="@+id/imageButton7"
         android:layout_width="158dp"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:layout_marginBottom="381dp"
         android:contentDescription="@string/Descripcion"
         app:layout_constraintBottom_toBottomOf="parent"

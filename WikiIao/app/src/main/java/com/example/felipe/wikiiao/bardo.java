@@ -3,13 +3,11 @@ package com.example.felipe.wikiiao;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class clases extends AppCompatActivity {
+public class bardo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.clases);
+        setContentView(R.layout.activity_bardo);
     }
-
-    public void holis(){}
 }
