@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".clases">
+
+    <ImageButton
+        android:id="@+id/paladin"
+        android:layout_width="113dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/pala"
+        app:layout_constraintBottom_toTopOf="@+id/berserker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/mago"
+        android:layout_width="113dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/mago"
+        app:layout_constraintBottom_toTopOf="@+id/clerigo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/cazador"
+        android:layout_width="113dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/caza"
+        app:layout_constraintBottom_toTopOf="@+id/druida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/berserker"
+        android:layout_width="113dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="311dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/berse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paladin" />
+
+    <ImageButton
+        android:id="@+id/clerigo"
+        android:layout_width="113dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="311dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/clero"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mago" />
+
+    <ImageButton
+        android:id="@+id/druida"
+        android:layout_width="113dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="311dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/druida"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cazador" />
+
+    <ImageButton
+        android:id="@+id/asesino"
+        android:layout_width="113dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/ase"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/berserker" />
+
+    <ImageButton
+        android:id="@+id/gladiador"
+        android:layout_width="113dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/gladia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clerigo" />
+
+    <ImageButton
+        android:id="@+id/guerrero"
+        android:layout_width="113dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/guerre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/druida" />
+
+    <ImageButton
+        android:id="@+id/mercenario"
+        android:layout_width="113dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/merce"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/asesino" />
+
+    <ImageButton
+        android:id="@+id/bardo"
+        android:layout_width="113dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/bardo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gladiador" />
+
+    <ImageButton
+        android:id="@+id/nigromante"
+        android:layout_width="113dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/ImagenClase"
+        android:src="@drawable/nigro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guerrero" />
+</android.support.constraint.ConstraintLayout>
