@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent clases = new Intent(this, com.example.felipe.wikiiao.clases.class);
         startActivity(clases);
     }
+
+    public void irABardo(View view){
+        Intent bardo = new Intent(this,bardo.class);
+        startActivity(bardo);
+    }
 }
