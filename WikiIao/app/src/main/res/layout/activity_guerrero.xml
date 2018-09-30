@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondoclases"
-    tools:context=".guerrero">
+    tools:context="com.example.felipe.wikiiao.guerrero">
 
 </android.support.constraint.ConstraintLayout>

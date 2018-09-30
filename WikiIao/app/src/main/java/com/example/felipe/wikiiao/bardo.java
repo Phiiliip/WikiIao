@@ -1,9 +1,9 @@
 package com.example.felipe.wikiiao;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
+
+import com.example.felipe.WikiIao.R;
 
 public class bardo extends AppCompatActivity {
 
@@ -13,8 +13,8 @@ public class bardo extends AppCompatActivity {
         setContentView(R.layout.activity_bardo);
     }
 
-    public void onClick(View view){
+    /*public void onClick(View view){
         Intent prueba = new Intent(this,clases.class);
         startActivity(prueba);
-    }
+    }*/
 }

@@ -1,7 +1,9 @@
 package com.example.felipe.wikiiao;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.example.felipe.WikiIao.R;
 
 public class guerrero extends AppCompatActivity {
 
