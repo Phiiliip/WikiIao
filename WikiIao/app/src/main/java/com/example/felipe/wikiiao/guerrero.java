@@ -1,17 +1,13 @@
-package com.example.felipe.wikiiao.clases;
+package com.example.felipe.wikiiao;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.felipe.wikiiao.R;
-
-public class clases extends AppCompatActivity {
+public class guerrero extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.clases);
+        setContentView(R.layout.activity_guerrero);
     }
-
-    public void holis(){}
 }

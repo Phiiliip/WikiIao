@@ -16,9 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".clases.clases" />
+        <activity android:name=".clases" />
         <activity android:name=".staff" />
-        <activity android:name=".bardo"></activity>
+        <activity android:name=".bardo" />
+        <activity android:name=".guerrero"></activity>
     </application>
 
 </manifest>

@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void irAClases(View view){
-        Intent clases = new Intent(this, com.example.felipe.wikiiao.clases.clases.class);
+        Intent clases = new Intent(this, com.example.felipe.wikiiao.clases.class);
         startActivity(clases);
     }
 }
