@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">testando</string>
     <string name="Descripcion">Descripcion</string>
     <string name="ImagenClase">ImagenClase</string>
